@@ -24,6 +24,23 @@ This project models arms trade between nations as a directed graph, where suppli
 * **Hub Analysis**: Identifying key state actors that play a pivotal role in **facilitating arms distribution** across various geopolitical regions.
 * **Insight Generation**: Translating algorithmic scores into meaningful **geopolitical narratives** that reflect current global security dynamics and military alliances.
 
+## ⚙️ Installation & Usage
+
+### 1. Environment Setup
+```bash
+# Clone the repository
+git clone https://github.com/Billy1205/global-arms-trade-network.git
+cd global-arms-trade-network
+
+# Install required network science libraries
+pip install -r requirements.txt
+```
+
+### 2. Execution
+1. Open `notebooks/global-arms-trade-network.ipynb`.
+2. Run the cells to process the **TIV (Trend Indicator Value)**.
+3. The notebook will generate a ranked list of **Authorities** (Military Power Centers) and **Hubs** (Logistical Connectors).
+
 ***
 
 # Global Arms Trade Network Analysis
@@ -46,3 +63,20 @@ Proyek ini memodelkan perdagangan senjata antarnegara sebagai sebuah graf berara
 - **Authority Analysis**: Menghitung skor otoritas untuk menentukan negara mana yang memiliki pengaruh militer terbesar sebagai penerima/pusat teknologi.
 - **Hub Analysis**: Menentukan aktor yang berperan penting dalam memfasilitasi distribusi senjata ke berbagai wilayah.
 - **Insight Generation**: Menginterpretasikan skor algoritma menjadi narasi geopolitik yang relevan dengan kondisi dunia saat ini.
+
+## ⚙️ Instalasi & Penggunaan
+
+### 1. Persiapan Lingkungan
+```bash
+# Klon repositori
+git clone https://github.com/Billy1205/global-arms-trade-network.git
+cd global-arms-trade-network
+
+# Instal pustaka network science
+pip install -r requirements.txt
+```
+
+### 2. Menjalankan Analisis
+1. Buka notebook di folder `notebooks/`.
+2. Jalankan semua sel untuk memproses data **TIV**.
+3. Sistem akan menghasilkan peringkat **Authorities** (Pusat Kekuatan Militer) dan **Hubs** (Penghubung Logistik).
